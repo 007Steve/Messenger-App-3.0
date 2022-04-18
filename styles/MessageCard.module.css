@@ -1,0 +1,29 @@
+.messageCard {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: .20rem;
+}
+
+.messageCard:hover {
+    background-color: #F0EDFF;
+    cursor: pointer;
+}
+
+.messageCard__infoContainer {
+    margin-left: .51rem;
+
+}
+
+.messageCard__name {
+    margin: 0;
+    padding: 0;
+}
+
+.messageCard__texts {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    color: #C0BFC4;
+}
