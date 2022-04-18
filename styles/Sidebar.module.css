@@ -2,7 +2,8 @@
     width: 20vw;
     display: flex;
     background-position: right;
-
+    z-index: 2;
+    /* flex: .30; */
 }
 
 .sidebar__Container {
@@ -63,3 +64,20 @@
     color: #9CA0B6;
 
 }
+
+
+@media only screen and (max-width: 878px) {
+    .sidebar__iconsContainer {
+     display: none;
+    }
+  }
+
+  @media only screen and (max-width: 678px) {
+    .sidebar__messageContainer{
+     display: none;
+    }
+    .sidebar__iconsContainer {
+        display: flex;
+        flex-direction: column;
+       }
+  }
