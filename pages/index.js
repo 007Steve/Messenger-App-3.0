@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Sidebar from '../components/Sidebar'
+import Chat from '../components/Chat'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
 
       <Sidebar/>
+      <Chat/>
     </div>
   )
 }
