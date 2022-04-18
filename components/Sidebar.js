@@ -15,7 +15,7 @@ function Sidebar() {
             <div className={styles.sidebar__Container}>
                 <div className={styles.sidebar__iconsContainer}>
                     <div className={styles.sidebar__logoContainer}>
-                        <Avatar src="/MLogo.png" />
+                        <Avatar src="/MLogo.png"  />
                         <div className={styles.sidebar__logoCenterContainer}>
                             <BoltIcon className={styles.sidebar__icons} />
                             <AppsRoundedIcon className={styles.sidebar__icons} />
