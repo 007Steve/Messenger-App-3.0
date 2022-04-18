@@ -1,0 +1,65 @@
+.sidebar {
+    width: 20vw;
+    display: flex;
+    background-position: right;
+
+}
+
+.sidebar__Container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.sidebar__logoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FCFBFD;
+    padding: 1rem;
+}
+
+.sidebar__logoCenterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar__icons {
+    color: #9CA0B6;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.sidebar__icons:hover {
+    color: #7964F1;
+}
+
+.sidebar__messageContainer {
+    background-color: #ffffff;
+    flex: 1;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.055);
+}
+
+.sidebar__inputContainer {
+    background-color: #e0dfe485;
+    display: flex;
+    padding: .50rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.sidebar__input {
+    border: none;
+    background-color: #e0dfe400;
+    color: #9CA0B6;
+}
+
+.input__icons {
+    color: #9CA0B6;
+
+}
