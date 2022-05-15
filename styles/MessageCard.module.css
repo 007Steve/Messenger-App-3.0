@@ -2,13 +2,16 @@
     display: flex;
     align-items: center;
     border-radius: 5px;
-    margin: 1rem;
-    padding: .20rem;
+    /* margin: .1rem 1rem; */
+    padding: .50rem;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.082);
 }
 
 .messageCard:hover {
-    background-color: #F0EDFF;
+    background-color: #F5F7FB;
+    /* background-color: #e1dbfd62; */
     cursor: pointer;
+    /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.103); */
 }
 
 .messageCard__infoContainer {
@@ -19,6 +22,7 @@
 .messageCard__name {
     margin: 0;
     padding: 0;
+    font-weight: 450;
 }
 
 .messageCard__texts {
@@ -27,3 +31,5 @@
     font-size: small;
     color: #C0BFC4;
 }
+
+.moreOptions__iconDelete {}
