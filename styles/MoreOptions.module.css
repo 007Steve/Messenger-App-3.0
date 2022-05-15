@@ -1,0 +1,48 @@
+.moreOptions {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    left: 20;
+    bottom: 40px;
+    max-height: 145px;
+    min-width: 200px;
+    border-radius: 5px;
+    background-color: #fefefe;
+    background-image: linear-gradient(160deg, #fefefe 0%, #e9ecf8 100%);
+
+}
+
+.moreOptions__iconContainer {
+    display: flex;
+    align-items: center;
+    margin: .20rem;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.moreOptions__icon {
+    margin-left: .50rem;
+    color: #89909B;
+    padding: 0;
+}
+
+.moreOptions__iconText {
+    margin-left: .50rem;
+    font-size: 14px;
+    padding: 0;
+    color: #89909B;
+}
+
+.moreOptions__iconContainer:hover {
+    background-color: #e1dbfd62;
+    cursor: pointer;
+}
+
+.moreOptions__iconDelete {
+    color: #ff2222;
+}
+
+.moreOptions__delete {
+    background-color: #fc002a1f;
+    color: #ED506A;
+}
