@@ -11,11 +11,11 @@ function Signin() {
     <div className={styles.signin}>
       <form className={styles.signin__form} onSubmit>
         <div className={styles.signUp__logoContainer} >
-          <img className={styles.signUp__logo} src="/mlogo.png" alt=""/>
-        {/* <LocalFireDepartmentIcon  sx={{ fontSize: 50 }}/> */}
-        <h1 className={styles.signUp__logoContainerText}>Messenger</h1>
+          <img className={styles.signUp__logo} src="/mlogo.png" alt="" />
+          {/* <LocalFireDepartmentIcon  sx={{ fontSize: 50 }}/> */}
+          <h1 className={styles.signUp__logoContainerText}>Messenger</h1>
         </div>
-        
+
         {message ? <h5 className={styles.signUp__error}>{message}</h5> : <></>}
 
         <div className={styles.signUp__inputContainer}>
@@ -49,14 +49,14 @@ function Signin() {
         </div>
         <div className={styles.signUp__btnSignContainer}>
 
-      
+
           <button className={styles.signUp__btn} >Sign Up</button>
-       
+
         </div>
         <Link href="/">
           <button className={styles.demo__btn}>Demo</button>
         </Link>
-       
+
       </form>
     </div>
   )
