@@ -49,9 +49,9 @@ function Signin() {
         </div>
         <div className={styles.signUp__btnSignContainer}>
 
-          {/* <Link href="/Home"> */}
+      
           <button className={styles.signUp__btn} >Sign Up</button>
-          {/* </Link> */}
+       
         </div>
         <Link href="/">
           <button className={styles.demo__btn}>Demo</button>
@@ -62,4 +62,4 @@ function Signin() {
   )
 }
 
-export default signin
+export default Signin
