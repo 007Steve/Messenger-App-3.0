@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from '../styles/Signin.module.css'
 import Link from "next/link";
 import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
-function signin() {
+function Signin() {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
